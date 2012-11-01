@@ -4,10 +4,21 @@ $grayMediumLight: #eaeaea;
 $grayLight: #999;
 
 @mixin box_sizing {
+<<<<<<< HEAD
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
 }
+=======
+
+-moz-box-sizing: border-box;
+-webkit-box-siing: border-box;
+box-sizing: border-box;
+}
+
+
+
+>>>>>>> sign-up
 /* universal */
 html {
 
@@ -114,7 +125,11 @@ margin-left: 10px;
 }
 }
 
+<<<<<<< HEAD
 /* miscellaneous */
+=======
+/* misscellaneous */
+>>>>>>> sign-up
 
 .debug_dump {
 
@@ -123,11 +138,16 @@ float: left;
 width: 100%;
 margin-top: 45px;
 @include box_sizing;
+<<<<<<< HEAD
+=======
+
+>>>>>>> sign-up
 }
 
 /* sidebar */
 
 aside {
+<<<<<<< HEAD
   section {
     padding: 10px 0;
     border-top: 1px solid $grayLight;
@@ -155,6 +175,37 @@ aside {
 }
 
 /* forms */
+=======
+section{
+
+padding: 10px 0;
+border-top: 1px solid $grayLight;
+&:first-child {
+border: 0;
+padding-top: 0;
+}
+
+span {
+display: block;
+margin-botom: 3px;
+line-height: 1;
+}
+h1 {
+
+font-size: 1.6em;
+text-align: left;
+letter-spacing: -1px;
+margin-bottom: 3px;
+}
+}
+}
+
+.gravatar {
+
+float: left;
+margin-right: 10px;
+}
+>>>>>>> sign-up
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
@@ -165,6 +216,7 @@ input, textarea, select, .uneditable-input {
   @include box_sizing;
 }
 
+<<<<<<< HEAD
 #error_explanation {
   color: #f00;
   ul {
@@ -177,3 +229,20 @@ input, textarea, select, .uneditable-input {
   @extend .control-group;
   @extend .error;
  }
+=======
+error_explanation {
+
+color: #f00;
+ul {
+
+list-style: none;
+margin: 0 0 18px 0;
+}
+}
+
+.field_with_errors {
+
+@extend .control-group;
+@extend .error;
+} 
+>>>>>>> sign-up
